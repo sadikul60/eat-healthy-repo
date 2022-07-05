@@ -1,15 +1,55 @@
+/*All body style*/
 body{
     margin: 0;
 }
 
+/*Section style*/
 section{
     display: flex;
-
+    padding: 50px;
 }
 
+.top-bannar{
+    background-image: url(shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/*half-width 50% style*/
 .half-width{
     width: 50%;
+    padding: 40px;
 }
+
+/*half width images style*/
 .half-width img{
     width: 80%;
+
+}
+
+/*h1 all tag style*/
+h1{
+    color: chocolate;
+    font-size: 41px;
+    font-family: 'Audiowide', cursive;
+}
+
+/*All p tag  style*/
+p{
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+span{
+    color: blue;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(194, 62, 10));
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-size: 25;
+    font-weight: 800;
 }
