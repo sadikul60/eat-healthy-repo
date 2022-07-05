@@ -34,6 +34,11 @@ h1{
     font-family: 'Audiowide', cursive;
 }
 
+/*h1 all tag style*/
+h2{
+    font-size: 33px;
+}
+
 /*All p tag  style*/
 p{
     color: rgba(0, 0, 0, 0.678);
@@ -42,10 +47,12 @@ p{
     text-align: justify;
 }
 
+/*All span tag  style*/
 span{
     color: blue;
 }
 
+/*link-button  style*/
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, rgb(194, 62, 10));
@@ -55,12 +62,18 @@ span{
     font-weight: 800;
 }
 
+/*About-me section style*/
 .about-me{
     background-image: url(shapes/7.png);
     background-repeat: no-repeat;
     margin: -58px;
     margin-top: -91px;
     background-position: left;
+}
+
+/*About-section in h1 and p in top-space style*/
+#top-space{
+    padding-top:  200px;
 }
 
 
