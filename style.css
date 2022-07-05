@@ -5,7 +5,7 @@ body{
 }
 
 /*Section style*/
-section{
+.flexible-container{
     display: flex;
    
 }
@@ -68,6 +68,29 @@ span{
 /*About-section in h1 and p in top-space style*/
 #top-space{
     padding-top:  100px;
+}
+.fontsize{
+    text-align: center;
+    padding-left:  290px;
+    padding-right: 290px;
+}
+.sundor-one{
+    margin-left: 260px;
+    margin-right: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    border: 10px solid rgb(223, 220, 220);
+    box-shadow: 2px 3px 2px 5px rgb(78, 77, 77);
+}
+.sundor-two{
+    margin-right: 260px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 10px solid rgb(223, 220, 220);
+    box-shadow: 2px 3px 2px 5px rgb(78, 77, 77);
+}
+h2{
+    font-size: 25px;
 }
 
 
