@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    
 }
 
 /*Section style*/
@@ -19,7 +20,7 @@ body{
 
 /*half width images style*/
 .half-width img{
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -63,6 +64,15 @@ span{
     background-image: url(shapes/7.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.big-img{
+    margin-bottom: -145px;
+    height: 100%;
+}
+
+#images{
+    margin-top: 222;
 }
 
 /*About-section in h1 and p in top-space style*/
